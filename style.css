@@ -1,3 +1,45 @@
-body{
-    background-color: rgb(62, 201, 2);
+*{
+  
 }
+
+body{
+  background-color:#e8dbd3;
+}
+
+.meat{
+  color: #75474a
+}
+
+#ingredients{
+  background-color:#f3eeea;
+  padding: 5px 15px;
+  border-radius:10px;
+}
+
+#intro img{
+  border: #75474a 5px solid;
+}
+
+a{
+ color: #aa7d7a; 
+}
+
+header, main, footer{
+  max-width:800px;
+  margin: 0 auto;
+}
+
+main{
+  background-color:white;
+  padding:25px;
+  border-radius:10px
+}
+
+nav{
+  margin-bottom: 20px;
+}
+
+footer{
+  margin-top:10px;
+}
+
