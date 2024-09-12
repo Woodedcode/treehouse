@@ -207,3 +207,88 @@ if (a > b) {
 // } else {
 //   console.log(`Sorry. the number was ${number}`);
 // }
+
+
+
+
+///////////////// IF-ELSE STATEMENTS
+// const weather = prompt("what is it like outside?");
+
+// if (weather === 'sun') {
+//   console.log('Its sunny, so im going swimming')
+// } else if (weather === 'rain') {
+//   console.log('better grab an umbrella')
+// } else if (weather === 'snow') {
+//   console.log('It is snowing in Texas')
+// } else {
+//   console.log('i should look outside')
+// }
+
+// EX:
+// const isAdmin = false;
+// const isStudent = false;
+// let message;
+
+// if ( isAdmin ) {
+//   message = 'Welcome admin';
+// } else if ( isStudent ) {
+//   message = 'Welcome student';
+// } else {
+//  message = "Access denied" 
+// }
+
+
+
+
+///////////////// && and ||
+/*
+&&
+
+USE && WHEN YOU WANT TWO OR MORE CONDITIONS TO PASS
+
+(score === 0 && ships <= 0 && time === 0)
+
+---------------------------------------------------
+||
+TO CHECK IF BOTH CONDITIONS ARE TRUE. to ask if condition 1 is true OR condition 2 is true
+let agree = 'yes'
+
+(agree === 'yes || agree === 'y')
+
+(password === '' || email === '' || phoneNumber === '')
+*/
+
+
+
+
+///////////////// COMMENTS
+/*
+consider other developers
+
+
+The Number Guessing Game
+Stores a number between 1-10
+and gives the player 1 attempt for guess the number.
+
+
+// //When the game begins, its false
+// let correctGuess = false;
+// let number = 6;
+// const guess = prompt("guess a number between 1 and 10");
+
+// // conditional statement to test is guess matched the number
+// // changes the guess to true if they match
+//  if (+guess === number) {
+//   correctGuess = true
+// }
+
+
+// // Test if guess is correct 
+// if (correctGuess) {
+//   console.log('You guessed the number');
+// } else {
+//   console.log(`Sorry. the number was ${number}`);
+// }
+
+
+*/
