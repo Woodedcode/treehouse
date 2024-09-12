@@ -54,3 +54,13 @@
 
 // EX:
 // const message = "You're welcome!";
+
+
+
+
+
+//////////// CAPTURE INPUT (PROMPT)
+// const name = prompt("What is your name?");
+// console.log(name)
+
+// EX:
