@@ -8,3 +8,18 @@
 // EX:
 
 // var myName = "Ryan";
+
+
+
+
+//////////// LET AND CONST
+// let score = 5;
+// score += 5
+// console.log(score)
+
+// EX:
+// lett points = 100;
+// const bonusPts = 50;
+
+// points += bonusPts;
+// console.log(points);
