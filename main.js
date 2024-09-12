@@ -133,3 +133,77 @@
 // const price = 4.99;
 
 // const drink = `${flavor} ${type}: $${price}`;
+
+
+
+
+//////////// CONDITIONAL STATEMENTS
+// const answer = prompt("Which planet is closest to the sun?");
+
+// if (answer.toUpperCase() === "MERCURY") {
+//   console.log("That's answer is correct!")
+// } else {
+//   console.log("Guess again!")
+// }
+
+
+
+
+//////////// COMPARISON OPERATORS
+// (3>2) // > T
+// (100 > 100) // > F
+// (100 >= 100) // > T
+// (-12 < 0) // > T
+// ('apple' < 'bear') // > T
+// ('100' < 'apple') // > T
+
+/*
+'==' Equality Operator
+
+('3' == 3) > T
+
+'===' Strict Equality Operator
+('3' === 3) > F  - one value us a string and one is a number
+
+(165 === 165.9) > F
+
+!= - NOT EQUAL TO
+!== - STRICT NOT EQUAL
+
+(10 !== 9) > T
+('10' !== 10) > T
+('Java' !== 'java') > T
+
+
+
+EX:
+const a = 10;
+const b = 20;
+const c = 30;
+
+if (a > b) {
+  console.log('a is greater than b')
+}else{
+  console.log('a is not greater than b')
+}
+*/
+
+
+
+
+///////////////// BOOLEAN VALUES
+// let correctGuess = false;
+// let number = 6;
+// const guess = prompt("guess a number between 1 and 10");
+                     
+//  if (+guess === number) {
+//   correctGuess = true
+// }
+
+
+
+// if (correctGuess) {
+//   console.log('You guessed the number');
+// } else {
+//   console.log(`Sorry. the number was ${number}`);
+// }
