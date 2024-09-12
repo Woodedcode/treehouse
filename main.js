@@ -25,6 +25,8 @@
 // console.log(points);
 
 
+
+
 //////////// STRINGS
 // const message = 'I\'m a programmer!';
 // const htmlSnippet = '<h1> class="headline">My Headline</h1>';
@@ -34,3 +36,21 @@
 // console.log(message);
 // console.log(htmlSnippet)
 // console.log(multiline)
+
+
+
+
+//////////// TRANSFORM AND MANIPULATE STRINGS
+// let passPhrase = 'Open Sesame';
+// console.log(passPhrase.length)
+
+// let passPhrase1 = 'Hi';
+// console.log(passPhrase1.length)
+
+// console.log("This is my string!".length)
+
+// console.log('hello'.toLocaleUpperCase())
+// console.log('HELLO'.toLocaleLowerCase())
+
+// EX:
+// const message = "You're welcome!";
