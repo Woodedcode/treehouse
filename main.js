@@ -361,3 +361,70 @@ and gives the player 1 attempt for guess the number.
 // <h2>You got ${quizAnswers} out of 5 questions correct.</h2>
 // <p>crown earned: <strong>${playerRank}</strong>
 // `
+/*
+EX:
+const money = 9;
+const today = 'Friday'
+
+if ( money > 10 && today === 'Friday' ) {
+  alert("Time to go to the theater.");    
+} else if ( money >= 50 && today === 'Friday' ) {
+  alert("Time for a movie and dinner.");    
+} else if ( today === 'Friday' ) {
+  alert("It's Friday, but I don't have enough money to go out.");   
+} else {
+  alert("This isn't Friday. I need to stay home.");
+}
+
+*/
+
+
+
+
+///////////////// NUMBERS 
+
+
+
+
+///////////////// PROGRAM WITH MATH
+//EX:
+// const wholesalePrice = 5.45;
+// const retailPrice = 9.99;
+// const quantity = 47;
+
+// let salesTotal = retailPrice * quantity
+// let profit = salesTotal - wholesalePrice * quantity
+// let profitPerUnit = profit / quantity
+
+
+
+
+///////////////// STRINGS AS NUMBERS
+//NUMBER
+// const HTMLBadges = prompt('How many HTML badges do you have?');
+// const CSSBadges = prompt('How many CSS badges do you have?');
+
+// const totalBadges = Number(HTMLBadges) + Number(CSSBadges);
+// console.log(totalBadges);
+
+//PARSEINT
+// const HTMLBadges = prompt('How many HTML badges do you have?');
+// const CSSBadges = prompt('How many CSS badges do you have?');
+
+// let totalBadges = HTMLBadges + CSSBadges;
+// console.log(parseInt(HTMLBadges) + parseInt(CSSBadges));
+
+// const HTMLBadges = prompt('How many HTML badges do you have?');
+// const CSSBadges = prompt('How many CSS badges do you have?');
+
+// let totalBadges = HTMLBadges + CSSBadges;
+// console.log(+HTMLBadges + +CSSBadges);
+
+// const pi = '3.14';
+// console.log(parseFloat(pi));
+
+// EX:
+// const width = '190px';
+// const totalImages = 10;
+
+// let totalWidth = parseInt(width) * totalImages;
