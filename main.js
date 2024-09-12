@@ -292,3 +292,72 @@ and gives the player 1 attempt for guess the number.
 
 
 */
+
+
+
+
+///////////////// CONDITIONAL CHALLENGING
+/* 
+  1. Store correct answers
+   - When quiz begins, no answers are correct
+   
+*/
+// let quizAnswers = 0;
+
+// // 2. Store the rank of a player
+// let playerRank;
+
+// // 3. Select the <main> HTML element
+// const main = document.querySelector('main');
+
+// /*
+//   4. Ask at least 5 questions
+//    - Store each answer in a variable
+//    - Keep track of the number of correct answers
+// */
+// const question1 = prompt("What gem is used for programming?")
+// if (question1.toUpperCase() === "RUBY") {
+//   quizAnswers +=1
+// }
+// const question2 = prompt("What programming language is a snake?")
+//  if (question2.toUpperCase() === "PYTHON") {
+//   quizAnswers +=1
+// }
+// const question3 = prompt("How do you move a mouse?")
+// if (question3.toUpperCase() === "CHEESE") {
+//   quizAnswers +=1
+// }
+// const question4 = prompt("How do you move a mouse?")
+// if (question4.toUpperCase() === "CHEESE") {
+//   quizAnswers +=1
+// }
+// const question5 = prompt("How do you move a mouse?")
+// if (question5.toUpperCase() === "CHEESE") {
+//   quizAnswers +=1
+// }
+
+// /*
+//   5. Rank player based on number of correct answers
+//    - 5 correct = Gold
+//    - 3-4 correct = Silver
+//    - 1-2 correct = Bronze
+//    - 0 correct = No crown
+// */
+
+// if (quizAnswers === 5) {
+//   playerRank = 'GOLD';
+// } else if (quizAnswers >= 3) {
+//   playerRank = 'Silver'
+// } else if (quizAnswers >= 2) {
+//   playerRank = 'Bronze'
+// } else {
+//  playerRank = 'none :(' 
+// }
+
+
+
+// // 6. Output results to the <main> element
+// main.innerHTML = `
+// <h2>You got ${quizAnswers} out of 5 questions correct.</h2>
+// <p>crown earned: <strong>${playerRank}</strong>
+// `
