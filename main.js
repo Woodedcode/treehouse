@@ -428,3 +428,18 @@ if ( money > 10 && today === 'Friday' ) {
 // const totalImages = 10;
 
 // let totalWidth = parseInt(width) * totalImages;
+
+
+
+
+///////////////// METHODS
+//MATH.RANDOM - MATH.FLOOR MATH.CEIL 
+// const dieRoll = Math.floor(Math.random() * 6) + 1;
+
+// console.log(`you rolled an ${dieRoll}`);
+
+// EX:
+// const temperature = 37.5;
+
+// let tempRounded = Math.round(temperature);
+// let tempRoundDown = Math.floor(temperature);
