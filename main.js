@@ -23,3 +23,14 @@
 
 // points += bonusPts;
 // console.log(points);
+
+
+//////////// STRINGS
+// const message = 'I\'m a programmer!';
+// const htmlSnippet = '<h1> class="headline">My Headline</h1>';
+// const multiline = "Hello, students \
+// Welcome to Javascript Basics. \
+// I hope you learn a lot!";
+// console.log(message);
+// console.log(htmlSnippet)
+// console.log(multiline)
