@@ -64,3 +64,29 @@
 // console.log(name)
 
 // EX:
+
+
+
+
+
+//////////// COMBINE STRINGS
+// let firstName = "Ryan "
+// let lastName = "Woods"
+
+// let fullName = firstName + lastName
+// console.log(fullName)
+
+
+// let name = prompt("What is your name");
+// let message = "Hello " + name + ". Welcome to my music site. "
+// message += "I'm so happy that you came by to visit, "
+// message += name;
+// message += ". Feel free to come again and listen to more music."
+// console.log(message);
+
+// EX:
+// let firstName = "Ryan";
+// let lastName = "Woods";
+// let role = 'developer';
+
+// let msg = firstName + " " + lastName + " : " + role.toUpperCase()
