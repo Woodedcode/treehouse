@@ -480,3 +480,66 @@ if ( money > 10 && today === 'Friday' ) {
 
 // let tempRounded = Math.round(temperature);
 // let tempRoundDown = Math.floor(temperature);
+
+
+
+
+///////////////// FUNCTIONS
+// function goToCoffeeShop() {
+//     alert('Your coffee is on its way!')
+// }
+
+// goToCoffeeShop()
+
+// function alertRandom() {
+//     const randomNumber = Math.floor(Math.random() * 6) + 1;
+//     alert(randomNumber)
+// }
+// alertRandom()
+
+// function sayHi() {
+//     alert('Hi')
+// }
+
+// sayHi()
+
+
+
+
+///////////////// RETURN STATEMENTS
+// function goToCoffeeShop() {
+//     return "your coffee is on its way."
+// }
+//  alert(goToCoffeeShop)
+
+// function getRandomNumber() {
+//     const randomNumber = Math.floor(Math.random() * 6) + 1;
+//     return randomNumber
+// }
+
+// alert(getRandomNumber())
+// console.log(getRandomNumber())
+// const dieRoll = getRandomNumber()
+
+// EX:
+// function getYear() {
+//     const year = new Date().getFullYear();
+//     return year;
+//    }
+
+//    let yearToday = getYear()
+
+// function isFieldEmpty() {
+//     const field = document.querySelector('#info');
+//     if (!field.value) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+  
+//   const fieldTest = isFieldEmpty();
+  
+//   if (fieldTest) {
+//     alert('please provide your info');
+//   }
