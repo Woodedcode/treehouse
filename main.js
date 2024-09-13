@@ -383,6 +383,43 @@ if ( money > 10 && today === 'Friday' ) {
 
 ///////////////// NUMBERS 
 
+// EX: RANDOM NUMBER GEN
+// // Collect input from a user
+// let userInputNum = prompt('Give us a number');
+
+// // Convert the input to a number
+// let highNum = parseInt(userInputNum);
+
+// if (highNum) {
+//   // Use Math.random() and the user's number to generate a random number
+//   let newRandomNum = Math.floor(Math.random() * highNum) + 1;
+  
+//   // Create a message displaying the random number
+//   console.log(`your random number between 1 and ${highNum} was ${newRandomNum}!`);
+// } else {
+  
+//   console.log('You need to provide a number')
+
+//  LOW AND HIGH NUMBER GEN
+// Collect input from a user
+// let inputLow = prompt('please provide a low number');
+// let inputHigh = prompt('Please provide a high number');
+
+// // Convert the input to a number
+// let lowNum = parseInt(inputLow);
+// let highNum = parseInt(inputHigh);
+
+// if (lowNum && highNum) {
+//   // Use Math.random() and the user's number to generate a random number
+//   let newRandomNum = Math.floor(Math.random() * (highNum - lowNum + 1)) + lowNum;
+  
+//   // Create a message displaying the random number
+//   console.log(`${newRandomNum} is a random number between ${lowNum} and ${highNum}!`);
+// } else {
+  
+//   console.log('You need to provide two numbers');
+// }
+
 
 
 
