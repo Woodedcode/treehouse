@@ -544,7 +544,7 @@ if ( money > 10 && today === 'Friday' ) {
 //     alert('please provide your info');
 //   }
 
-
+--------------------------------------------------------
 // function max(n1,n2){
 //   if (n1 > n2) {
 //     return n1
@@ -553,4 +553,4 @@ if ( money > 10 && today === 'Friday' ) {
 //   }
 // }
 
-// max(4,5)
+// console.log(max(4,5))
