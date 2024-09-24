@@ -543,3 +543,14 @@ if ( money > 10 && today === 'Friday' ) {
 //   if (fieldTest) {
 //     alert('please provide your info');
 //   }
+
+
+// function max(n1,n2){
+//   if (n1 > n2) {
+//     return n1
+//   } else { 
+//     return n2
+//   }
+// }
+
+// max(4,5)
