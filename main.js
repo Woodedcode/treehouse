@@ -554,3 +554,20 @@ if ( money > 10 && today === 'Friday' ) {
 // }
 
 // console.log(max(4,5))
+
+
+  ////// SCOPE
+  // global scope
+// let person = 'Ryan'
+
+// function greeting() {
+//   //function scope
+//   person = 'Meg';
+//   alert(`Hi, ${person}!`);
+// }
+
+
+
+// greeting()
+// alert(`good morning, ${person}!`)
+// greeting()
